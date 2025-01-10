@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Jersey 15", serif;
+    font-style: normal;
+
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: #111;
+}
+
+#string{
+    height: 200px;
+    width: 100%;
+    /* background-color: red; */
+}
