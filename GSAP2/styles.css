@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Jersey 15", serif;
+    font-style: normal;
+
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 
+#page1{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#page2{
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+
+#page2 h1{
+    font-size: 4rem;
+    color: #000;
+    background-color: red;
+}
+
+#page2 h2{
+    font-size: 3rem;
+    color: #000;
+    background-color: yellow;
+}
+
+#page3{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+} */
+
+
+body{
+    overflow-x: hidden;
+}
+
+#page1{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+
+#page2{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    padding: 5vw;
+}
+
+#page3{
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+#page2 h1{
+    font-size: 40vw;
+    /* font-weight: 600; */
+}
