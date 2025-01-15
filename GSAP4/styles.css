@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Jersey 15", serif;
+    font-style: normal;
+
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cursor{
+    height: 22px;
+    width: 22px;
+    background-color: white;
+    border-radius: 50%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5px;
+    text-align: center;
+    z-index: 9;
+}
+
+#image{
+    width: 70vw;
+    height: 50vh;
+    background-color: red;
+    position: relative;
+}
+
+#image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+   z-index: 10;
+}
